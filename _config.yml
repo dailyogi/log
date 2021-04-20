@@ -26,6 +26,9 @@ theme: hamilton
 plugins:
   - jekyll-feed
   - jekyll-theme-hamilton
+  
+disqus: ""
+google_analytics: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
