@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Daily Yogi
-email: dailyogi@protonmail.com
+email: dailyogi@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
     Log of my yoga practice and life.
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -22,9 +22,10 @@ url: dailyogi.netlify.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: hamilton
 plugins:
   - jekyll-feed
+  - jekyll-theme-hamilton
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
